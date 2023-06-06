@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.container {
+    background: white;
+    margin-left: 50vh;
+    margin-top: 200px;
+    width: 70rem;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px -3px 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.navbar>ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    justify-content: space-around;
+    transition: 1s;
+}
+
+li :hover {
+    text-decoration: underline aqua 2.5px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.logo {
+    color: black;
+    font-size: 20px;
+}
+
+hr {
+    opacity: 40%;
+}
+
+.principal {
+    margin: 50px;
+    margin-top: 70px;
+}
+
+.principal {
+    margin-left: 8rem;
+    margin-top: 10rem;
+    font-size: 17.5px;
+}
+
+.fundo-dev {
+    width: 60rem;
+    height: 60%;
+    margin-top: -20rem;
+    margin-left: -5.5rem;
+}
+
+/* AREA DE SOBRE*/
+
+.titulo-sobre {
+    font-size: 21px;
+    margin-left: -5rem;
+    margin-top: -8rem;
+    font-weight: 500;
+}
+
+.p-sobre {
+    margin: 25px;
+    line-height: 35px;
+}
+
+/* AREA DE PROJETOS*/
+
+.card1 {
+    border: 2px solid black;
+    width: 14.5rem;
+    height: 20rem;
+    margin: 5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.principal-projetos :hover {
+    box-shadow: rgba(0, 0, 0, 0.9) 0px -2px 10px;
+}
+
+.principal-projetos .card1 h3 {
+    margin-top: 2rem;
+    box-shadow: none;
+}
+
+.principal-projetos .card2 h3 {
+    margin-top: 2rem;
+    box-shadow: none;
+}
+
+.principal-projetos .card3 h3 {
+    margin-top: 2rem;
+    box-shadow: none;
+}
+
+.card2 {
+    border: 2px solid black;
+    width: 14.5rem;
+    height: 20rem;
+    margin-top: -25rem;
+    margin-left: 27.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card2 h3 {
+    margin-top: 2rem;
+
+}
+
+.card3 {
+    border: 2px solid black;
+    width: 14.5rem;
+    height: 20rem;
+    margin-top: -20rem;
+    margin-left: 50rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card3 h3 {
+    margin-top: 2rem;
+}
+
+.titulo-projetos {
+    font-size: 21px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+/* AREA DE CONTATO*/
+
+.titulo-contato {
+    font-size: 21px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.principal-contato {
+    margin: 0.6rem;
+}
+
+.principal-contato h3 {
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.principal-contato h4 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: -0.7rem;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+
+.nome-linha :hover {
+    text-decoration: underline aqua 2.5px;
+}
